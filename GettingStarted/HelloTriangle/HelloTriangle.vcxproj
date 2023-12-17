@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{161c6f9a-8a69-468a-8b73-32e7399aa70b}</ProjectGuid>
-    <RootNamespace>HelloWindow</RootNamespace>
+    <ProjectGuid>{56f5d766-903d-4ded-b482-19b3030d3eb4}</ProjectGuid>
+    <RootNamespace>HelloTriangle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -133,7 +133,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Dependencies\glad.c" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="HelloTriangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
