@@ -22,6 +22,16 @@
     <ClCompile Include="..\..\..\Dependencies\glad.c" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Shaders\3.3.shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Shaders\3.3shader.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLSLShaders\3.3.shader.vs" />
+    <None Include="GLSLShaders\3.3shader.fs" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
